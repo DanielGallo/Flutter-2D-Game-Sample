@@ -42771,7 +42771,7 @@ b6(a){var s,r,q,p=this
 p.a3M(a)
 if(p.gJh()){s=p.dX
 p.gnf()
-s+=30*a
+s+=15*a
 p.dX=s
 r=p.ax.d
 q=r.a
@@ -42785,7 +42785,7 @@ p.dX=0
 p.sG(B.kn)}p.dY.aD(s)},
 Y8(a){var s,r,q,p,o=this,n=null
 o.sG(B.xY)
-A.aSq(a,600)
+A.aSq(a,500)
 s=A.a4Q(!1,B.aO,0.3,n)
 r=new A.T(new Float32Array(2))
 r.aD(a)
