@@ -52,7 +52,6 @@ class EndlessWorld extends World with TapCallbacks, HasGameReference {
   Vector2 get size => (parent as FlameGame).size;
   int levelCompletedIn = 0;
 
-
   /// The random number generator that is used to spawn periodic components.
   final Random _random;
 
