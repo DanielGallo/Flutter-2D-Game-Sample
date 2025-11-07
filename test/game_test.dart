@@ -18,7 +18,7 @@ void main() {
       await tester.pumpWidget(const MyGame());
 
       // Verify that the 'Play' button is shown.
-      expect(find.text('Play'), findsOneWidget);
+      expect(find.text('Play1'), findsOneWidget);
     });
 
     testWidgets('should show Settings button', (tester) async {
